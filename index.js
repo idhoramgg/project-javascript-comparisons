@@ -6,7 +6,9 @@ const name1 = 'Ridho'
 const name2 = 'Geofenna'
 const nameCompared = name1 == name2
 
-console.log(nameCompared);
+console.log(nameCompared); //false
+
+console.log('Ridho' > 'Geofenna'); //true
 
 // if else
 let name = prompt("What's ur name ?");
